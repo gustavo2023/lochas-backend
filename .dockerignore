@@ -1,1 +1,22 @@
+# Git metadata
+.git
+.gitignore
+
+# Python environments and cache
 .venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables (Secrets)
+.env
+
+# Docker and IDE files
+Dockerfile
+compose.yaml
+.dockerignore
+
+# Documentation
+README.md
+BACKEND_PRD.md
